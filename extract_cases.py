@@ -8,8 +8,8 @@ import json
 from config import settings
 import utils
 
-def get_cases(state):
-    compressed_file = utils.get_cases_from_bulk(jurisdiction=state, data_format="json")
+def get_cases(state,format):
+    compressed_file = utils.get_cases_from_bulk(jurisdiction=state, data_format=format)
     
     cases = []
     print("File path:", compressed_file)
