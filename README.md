@@ -1,1 +1,1 @@
-# LS190
+# LS 190: Law and Natural Language Processing
